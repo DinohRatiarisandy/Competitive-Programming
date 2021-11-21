@@ -53,17 +53,17 @@ def connect(root):
 
 if __name__ == "__main__":
 
-	root 			     = Node(1)
-	root.left 			 = Node(2)
-	root.left.left       = Node(4)
-	root.left.right      = Node(5)
-	root.right           = Node(3)
-	root.right.right     = Node(7)
+	root 			 = Node(1)
+	root.left 		 = Node(2)
+	root.left.left       	 = Node(4)
+	root.left.right      	 = Node(5)
+	root.right            	 = Node(3)
+	root.right.right     	 = Node(7)
 	# root2
-	root2 				 = Node(1)
-	root2.left 			 = Node(2)
+	root2 			 = Node(1)
+	root2.left 		 = Node(2)
 	root2.left.left 	 = Node(4)
-	root2.left.left.left = Node(10)
+	root2.left.left.left 	 = Node(10)
 	root2.left.right 	 = Node(5)
 	root2.right 		 = Node(3)
 	root2.right.left 	 = Node(7)
