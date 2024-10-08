@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/3sum/description/
+
 from sys import stdin
 
 def inp():
